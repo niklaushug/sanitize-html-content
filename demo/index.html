@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TinyMce Parse Demo</title>
+
+    <script src="../node_modules/tinymce/tinymce.js"></script>
+    <script type="module" src="./main.js"></script>
+
+    <style>
+       hr {
+           margin: 2rem 0;
+       }
+       textarea {
+           height: 200px;
+           width: 500px;
+       }
+    </style>
+</head>
+<body>
+    <h1>Demo</h1>
+
+    <h2>Input</h2>
+    <textarea id="input" placeholder="Use incomplete in disallowed HTML intentionally to check sanitize function."></textarea>
+
+    <h2>Output</h2>
+    <output id="output"></output>
+
+    <hr>
+
+    <h2>TinyMCE Editor</h2>
+    <textarea id="editor"></textarea>
+</body>
+</html>
+

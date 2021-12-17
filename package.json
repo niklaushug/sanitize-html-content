@@ -1,0 +1,17 @@
+{
+  "name": "sanitize-html-content",
+  "version": "1.0.0",
+  "description": "Example to sanitize incomplete HTML content.",
+  "main": "main.js",
+  "scripts": {
+    "start": "web-dev-server"
+  },
+  "author": "nhug@inventage.com",
+  "license": "ISC",
+  "dependencies": {
+    "tinymce": "^5.6.2"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.28"
+  }
+}
